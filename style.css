@@ -1,0 +1,84 @@
+.header-inner {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 0;
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+.logo {
+    text-decoration: none;
+    color:#6B98F2; /* 이미지의 파란색 계열 */
+    font-weight: 800;
+    font-size: 1.2rem;
+}
+
+/* 메뉴 리스트 스타일 */
+.nav-list {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    gap: 18px; /* 메뉴 간 간격 */
+}
+
+/* 메뉴 링크 기본 스타일 */
+.nav-list a {
+    text-decoration: none;
+    color: black;
+    padding: 10px 14px;
+    font-weight: 600;
+    border-radius: 999px; /* 둥근 사각형 핵심 */
+    transition: 0.25s ease; /* 부드러운 전환 효과 */
+}
+
+/* 마우스 올렸을 때(Hover) 및 활성화(Active) 상태 */
+.nav-list a:hover, 
+.nav-list a.active {
+    background-color: #edf3ff; /* 요구된 배경색 */
+    color: #4a90e2;
+}
+
+.hero{
+    background-color : #edf3ff;
+    padding : 20px 20px;
+}
+
+.button-row{
+    display: flex;
+    gap: 14px;
+}
+
+.btn-primary{
+    text-decoration: none;
+    padding: 10px 10px;
+    background-color: #2f6bff;
+    color: #fff;
+    box-shadow : 0 12px 24px rgba(47,107,255,0.22);
+    border-radius: 999px;
+}
+
+.btn-primary:hover {
+   transform: translate(-2px);
+}
+
+.btn-secondary{
+    text-decoration: none;
+    padding: 10px 10px;
+    border-radius: 999px;
+    background-color: #fff;
+    border-color: #d9e1ef;
+    color: #1c2433;
+}
+
+.btn-secondary:hover {
+    border-color: #2f6bff;
+    color: #2f6bff;
+}
+
+.hero-card{
+    height: 280px;
+    object-fit: cover;
+    width: 100%;
+}
